@@ -1,0 +1,144 @@
+div.full {
+  width: 100vw;
+  height: 100vh;
+  background: linear-gradient(to top, #05876d40, #ffffff 60%),
+    url('../images/tile.png') repeat center center fixed;
+  background-size: 275px;
+}
+
+.content-container {
+  padding: 2vh 3vw 2vh 3vw;
+  display: flex;
+  justify-content: space-around;
+  height: 100%;
+}
+
+.banner p {
+  padding: 0;
+  margin: 0;
+  line-height: 1;
+  overflow: visible;
+}
+
+.banner {
+  font-family: "Montserrat";
+  font-weight: 900;
+  font-size: 50px;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  background: linear-gradient(to right, #36d7b7, #2b303b);
+  color: transparent;
+  display: inline-block; /* Ensure the gradient covers only the text */
+  border-radius: 5px; /* Example border-radius */
+  padding-bottom: 20px;
+  /* Vendor prefixes for background-clip */
+  -webkit-background-clip: text;
+  background-clip: text;
+}
+
+.content {
+  padding: 30px;
+  max-width: 65vw;
+  width: 900px;
+  font-size: 1.2em;
+  color: rgba(0, 0, 0, 0.7);
+}
+
+.interact {
+  margin: 20px;
+  padding: 50px 20px 40px 20px;
+  align-items: center;
+  justify-content: center;
+  background: #35c1a7;
+  width: 300px;
+  max-width: 25vw;
+  border-radius: 10px;
+}
+
+.interact .starter-form-header {
+  font-family: 'Montserrat';
+  font-weight: 600;
+  font-size: 1.5em;
+  color: #fff;  
+  text-align: center; /* Center the text horizontally */
+  margin-bottom: 30px; /* Adjust spacing as needed */
+}
+
+.starter-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Center items horizontally */
+  justify-content: center; /* Center items vertically */
+  text-align: center; /* Align text content center */
+  width: 100%;
+}
+
+.starter-form input {
+  width: 90%;
+  padding: 10px; /* Padding inside the input field */
+  border: none; /* Remove default border */
+  border-radius: 5px; /* Rounded corners */
+  margin-bottom: 5px; /* Spacing between input and buttons */
+  box-sizing: border-box; /* Ensure padding and border are included in width */
+  box-shadow: inset 0 0 0 1px #ccc; /* Inner border effect */
+  color: rgba(0, 0, 0, 0.7);
+}
+
+.starter-form input:focus {
+  outline: none; /* Remove default focus outline */
+  box-shadow: inset 0 0 0 2px #318a7e; /* Change inner border color on focus */
+}
+
+.starter-submit {
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Center items horizontally */
+}
+
+.starter-submit p{
+  margin: 5px;
+  color:#143833;
+}
+
+.starter-login {
+  font-family: 'Lato';
+  width: 100%;
+  height: 40px;
+  border: none;
+  color: white;
+  background-color: #318a7e;
+  justify-content: center;
+  text-decoration: none;
+  align-items: center;
+  border-radius: 10px;
+  line-height: normal;
+  display: flex;
+  font-size: 1.1em;
+}
+
+.starter-login:hover {
+  background-color: whitesmoke;
+  color:#318a7e;
+}
+
+.starter-register {
+  border: none;
+  color: #318a7e;
+  background-color: whitesmoke;
+  margin-top: 10px;
+  height: 40px;
+  width: 60px;
+  border-radius: 10px;
+  font-size: 14px;
+  margin-bottom: 50px;
+  padding: 10px;
+  text-align: center;
+  vertical-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.starter-register:hover {
+  background-color: rgb(216, 216, 216);
+}
