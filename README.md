@@ -3,11 +3,6 @@
 
 The project is a web application designed to facilitate efficient study management and user interaction. It features multiple pages and functionalities tailored for a personalized and secure user experience.
 
-Developed by: 
-- Tarun Raj
-- Udbhav Gupta
-- Tanush Reddy Kolagatla
-
 ## Homepage
 
 ![Home](readme_images/home.jpg)
